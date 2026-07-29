@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_NhudkXV8EfGUV7AbrHF_VA" name="tdenormalize_S8" dataPackage="_NhudknV8EfGUV7AbrHF_VA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sontanam Manikanta/Desktop/Talend/Talend Files/12AM-20260610T043604Z-3-001/12AM/dinormalizer.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NhudknV8EfGUV7AbrHF_VA" name="default" dataManager="_NhudkXV8EfGUV7AbrHF_VA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Nhudk3V8EfGUV7AbrHF_VA" id="_3I2-IHV7EfGUV7AbrHF_VA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NhudlHV8EfGUV7AbrHF_VA" label="empno" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NhudlXV8EfGUV7AbrHF_VA" label="ename" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NhudlnV8EfGUV7AbrHF_VA" label="skills" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_1ncPgXVLEfGUV7AbrHF_VA" name="bigfile" dataPackage="_1ncPgnVLEfGUV7AbrHF_VA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sontanam Manikanta/Desktop/Talend/Talend Files/12AM-20260610T043604Z-3-001/12AM/tfilelist.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1ncPgnVLEfGUV7AbrHF_VA" name="default" dataManager="_1ncPgXVLEfGUV7AbrHF_VA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1ncPg3VLEfGUV7AbrHF_VA" id="_WCaigHVLEfGUV7AbrHF_VA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPhHVLEfGUV7AbrHF_VA" label="policyID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPhXVLEfGUV7AbrHF_VA" label="statecode" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPhnVLEfGUV7AbrHF_VA" label="county" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPh3VLEfGUV7AbrHF_VA" label="eq_site_limit" length="15" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPiHVLEfGUV7AbrHF_VA" label="hu_site_limit" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPiXVLEfGUV7AbrHF_VA" label="fl_site_limit" length="15" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPinVLEfGUV7AbrHF_VA" label="fr_site_limit" length="15" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPi3VLEfGUV7AbrHF_VA" label="tiv_2011" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPjHVLEfGUV7AbrHF_VA" label="tiv_2012" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPjXVLEfGUV7AbrHF_VA" label="eq_site_deductible" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPjnVLEfGUV7AbrHF_VA" label="hu_site_deductible" length="15" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPj3VLEfGUV7AbrHF_VA" label="fl_site_deductible" length="15" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPkHVLEfGUV7AbrHF_VA" label="fr_site_deductible" length="15" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPkXVLEfGUV7AbrHF_VA" label="point_latitude" length="15" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPknVLEfGUV7AbrHF_VA" label="point_longitude" length="15" precision="7" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPk3VLEfGUV7AbrHF_VA" label="line" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPlHVLEfGUV7AbrHF_VA" label="construction" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1ncPlXVLEfGUV7AbrHF_VA" label="point_granularity" length="15" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
