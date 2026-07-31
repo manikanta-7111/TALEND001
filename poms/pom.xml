@@ -51,6 +51,8 @@
     <module>jobs/process/Java_Components_S20/tjavarow_0.1</module>
     <module>jobs/process/Java_Components_S20/tjavaflex_s20_0.1</module>
     <module>jobs/process/tschema_compliance_check_s21_0.1</module>
+    <module>jobs/process/tschema_compliance_check_convert_type_0.1</module>
+    <module>jobs/process/row_generator_s21_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALEND001</talend.project.name>
