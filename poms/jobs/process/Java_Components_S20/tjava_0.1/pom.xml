@@ -16,7 +16,7 @@
     <talend.job.type>Standard</talend.job.type>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <talend.pigudf.groupid>org.example.talend001.pigudf</talend.pigudf.groupid>
-    <talend.job.folder>java_components/</talend.job.folder>
+    <talend.job.folder>java_components_s20/</talend.job.folder>
     <talend.job.context>Default</talend.job.context>
     <talend.job.path>talend001</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
@@ -71,6 +71,11 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talend_file_enhanced_20070724</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.talend001.code</groupId>

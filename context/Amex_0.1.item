@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_VYvAEI_pEfGb7fCdr7VhfQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_1R374I_pEfGb7fCdr7VhfQ" comment="" name="source_oracle_userid" prompt="source_oracle_userid?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R374Y_pEfGb7fCdr7VhfQ" comment="" name="source_oracle_pwd" prompt="source_oracle_pwd?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R374o_pEfGb7fCdr7VhfQ" comment="" name="source_oracle_host" prompt="source_oracle_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R3744_pEfGb7fCdr7VhfQ" comment="" name="source_oracle_port" prompt="source_oracle_port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R375I_pEfGb7fCdr7VhfQ" comment="" name="source_oracle_db" prompt="source_oracle_db?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R375Y_pEfGb7fCdr7VhfQ" comment="" name="emp_file_loc" prompt="emp_file_loc?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1R375o_pEfGb7fCdr7VhfQ" comment="" name="mobnum_file_loc" prompt="mobnum_file_loc?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_6HgfAI_yEfGb7fCdr7VhfQ" comment="" name="dept_filter" prompt="dept_filter?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_6HgfAY_yEfGb7fCdr7VhfQ" comment="" name="country" prompt="country?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

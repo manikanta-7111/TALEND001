@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XLFOAJAWEfGb7fCdr7VhfQ" name="param_file" dataPackage="_XLFOAZAWEfGb7fCdr7VhfQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sontanam Manikanta/Desktop/Talend/practice files_me/param file.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XLFOAZAWEfGb7fCdr7VhfQ" name="default" dataManager="_XLFOAJAWEfGb7fCdr7VhfQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XLFOApAWEfGb7fCdr7VhfQ" id="_LdQU8JAWEfGb7fCdr7VhfQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XLFOA5AWEfGb7fCdr7VhfQ" label="key" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XLFOBJAWEfGb7fCdr7VhfQ" label="value" length="103" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
